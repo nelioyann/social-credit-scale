@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", () => {
     console.log("object");
     const boutonEnvoyer = document.querySelector("#calculate");
     const compter = e => {
-        e.preventDefault();
+        // e.preventDefault();
         var inputs = document.querySelectorAll('input[type="radio"]');
         var total = 0;
         for (var i = 0; i < inputs.length; i++) {
