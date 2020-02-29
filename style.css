@@ -17,7 +17,7 @@ header h1{
 header{
     /* background-color: rgba(255, 255, 255, 0.801); */
     background-color: var(--clr_grey);
-    padding: 40px 0px;
+    padding: 30px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,6 +34,45 @@ header #logo{
 header span{
     color: rgb(126, 134, 158);
 }
+header .score{
+    display: flex;
+    flex-direction: column;
+}
+header .score_values{
+    display: flex;
+    justify-content: space-between;
+}
+header .score_bar{
+    margin-top: 15px;
+    width: 250px;
+    height: 10px;
+    /* position: relative; */
+    border-radius: 12px;
+    background: #363636;
+    box-shadow: inset 5px 5px 8px #1e1e1e, 
+    inset -5px -5px 8px #4e4e4e;
+}
+header .score_bar #bar{
+    
+    background-color: #ffd05b;
+    border-radius: 12px;
+    font-size: 7px;
+    text-align: center;
+    line-height: 10px;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    height: 10px;
+    width: 1%;
+    transition: width 300ms cubic-bezier(0.77, 0, 0.175, 1);
+    
+
+}
+/* header .score_bar::after{
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 10px;
+} */
 body{
     background-color: var(--clr_blue);
     color: var(--clr_grey);
@@ -85,7 +124,7 @@ label{
     border: none;
     outline: none;
     padding: 15px 0px;
-    background-color: rgb(35, 207, 12);
+    background-color: rgb(49, 191, 31);
     color: whitesmoke;
     border-radius: 5px;
     width: 100%;
