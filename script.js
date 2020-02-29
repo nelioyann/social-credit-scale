@@ -1,8 +1,10 @@
 window.addEventListener("DOMContentLoaded", () => {
     console.log("object");
     const boutonEnvoyer = document.querySelector("#calculate");
+    const formulaire = document.querySelector("form");
     const compter = e => {
-        // e.preventDefault();
+        e.preventDefault();
+        // console.log(e)
         var inputs = document.querySelectorAll('input[type="radio"]');
         var total = 0;
         for (var i = 0; i < inputs.length; i++) {
@@ -15,7 +17,11 @@ window.addEventListener("DOMContentLoaded", () => {
         }
         let score = total * 45 + 350;
         alert("Ton score est de" + "\n" + score);
+        // formulaire.unbind('submit').submit()
     };
     // if score inf
-    boutonEnvoyer.addEventListener("click", compter);
+    // boutonEnvoyer.addEventListener("click", compter);
+    // boutonEnvoyer.addEventListener("click", compter);
+    formulaire.addEventListener("submit", compter)
+
 });
