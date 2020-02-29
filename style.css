@@ -1,0 +1,81 @@
+:root{
+    --clr_blue: #eef7ff;
+    --clr_grey: rgb(54, 54, 54);
+}
+body,html{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1{
+    margin: 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 40px 0px;
+    top: 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    /* border-radius: 0px 0px 30px 30px; */
+}
+body{
+    background-color: var(--clr_blue);
+    color: var(--clr_grey);
+}
+.questions_form{
+    margin: 20px;
+}
+
+h1, h3,h4{
+    font-weight: lighter;
+
+}
+.question h3{
+
+}
+label{
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.question input{
+    display: none;
+}
+
+.question input:checked + label{
+    color: rgb(27, 112, 197);
+    /* font-weight: bold; */
+    /* opacity: 0; */
+    /* display: none; */
+}
+
+.question label:first-of-type{
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    /* color: red; */
+    /* display: none; */
+}
+.question label:last-of-type{
+    border-radius: 0px 0px 5px 5px ;
+}
+
+#calculate{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 15px 0px;
+    background-color: rgb(35, 207, 12);
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px auto;
+    box-shadow: 1px 1px 3px rgb(54, 54, 54, 0.2);
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="An application to calculate a simulated social credit score">
+    <title>My Social Credit System</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>My Social Credit System</h1>
+        </header>
+        <form class="questions_form" data-netlify="true">
+            <p>This survey is completely anonymous. Please respond honestly.
+                <br>Your answers will be use to measure your score.</p>
+
+            <div class="question" id="q1">
+                <h3>1. Do you smoke regularly ?</h3>
+                <input type="radio" name="q1" id="q1_y">
+                <label for="q1_y"> Yes
+
+                </label>
+                <input type="radio" name="q1" id="q1_n" data-correct="oui">
+                <label for="q1_n"> No
+
+                </label>
+            </div>
+            <div class="question" id="q2">
+                <h3>2. Did you drink alcohol during the 14 last days?</h3>
+                <input type="radio" name="q2" id="q2_y">
+                <label for="q2_y">Yes
+
+                </label>
+                <input type="radio" name="q2" id="q2_n" data-correct="oui">
+                <label for="q2_n">No
+
+                </label>
+            </div>
+            <div class="question" id="q3">
+                <h3>3. Did you take drugs (weed or hard drug) during the 14 last day ?</h3>
+                <input type="radio" name="q3" id="q3_y">
+                <label for="q3_y">Yes
+
+                </label>
+                <input type="radio" name="q3" id="q3_n" data-correct="oui">
+                <label for="q3_n">No
+
+                </label>
+            </div>
+            <div class="question" id="q4">
+                <h3>4. Did you have a traffic ticket for speeding or bad park ?</h3>
+                <input type="radio" name="q4" id="q4_y">
+                <label for="q4_y">Yes
+
+                </label>
+                <input type="radio" name="q4" id="q4_n" data-correct="oui">
+                <label for="q4_n">No
+
+                </label>
+            </div>
+            <div class="question" id="q5">
+                <h3>5. Do you give your blood during the last month ?</h3>
+                <input type="radio" name="q5" id="q5_y" data-correct="oui">
+                <label for="q5_y">Yes
+
+                </label>
+                <input type="radio" name="q5" id="q5_n">
+                <label for="q5_n">No
+
+                </label>
+            </div>
+            <div class="question" id="q6">
+                <h3>6. Do you do voluntary work ?</h3>
+                <input type="radio" name="q6" id="q6_y" data-correct="oui">
+                <label for="q6_y">Yes
+
+                </label>
+                <input type="radio" name="q6" id="q6_n">
+                <label for="q6_n">No
+
+                </label>
+            </div>
+            <div class="question" id="q7">
+                <h3>7. Did you have a student loan ?</h3>
+                <input type="radio" name="q7" id="q7_y">
+                <label for="q7_y">Yes
+
+                </label>
+                <input type="radio" name="q7" id="q7_n" data-correct="oui">
+                <label for="q7_n">No
+
+                </label>
+            </div>
+            <div class="question" id="q8">
+                <h3>8. Did you take the bus or train without paying your ticket ?</h3>
+                <input type="radio" name="q8" id="q8_y">
+                <label for="q8_y">Yes
+
+                </label>
+                <input type="radio" name="q8" id="q8_n" data-correct="oui">
+                <label for="q8_n">No
+
+                </label>
+            </div>
+            <div class="question" id="q9">
+                <h3>9. Did you participate in march?</h3>
+                <input type="radio" name="q9" id="q9_y">
+                <label for="q9_y">Yes
+
+                </label>
+                <input type="radio" name="q9" id="q9_n" data-correct="oui">
+                <label for="q9_n">No
+
+                </label>
+            </div>
+            <div class="question" id="q10">
+                <h3>10. Do you like our talk?</h3>
+                <input type="radio" name="q10" id="q10_y" data-correct="oui">
+                <label for="q10_y">Yes
+
+                </label>
+                <input type="radio" name="q10" id="q10_n">
+                <label for="q10_n">No
+                </label>
+            </div>
+            <button id="calculate">Calculate</button>
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="./script.js"></script>
+
+</html>
