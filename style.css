@@ -1,6 +1,6 @@
 :root{
     --clr_blue: #eef7ff;
-    --clr_grey: rgb(54, 54, 54);
+    --clr_grey: #363636;
 }
 body,html{
     margin: 0;
