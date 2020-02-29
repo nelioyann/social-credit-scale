@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", () => {
             }
         }
         bar.style.width = (total*10)+1 + "%"
-        let score = total * 45 + 350;
+        let score = total *  60 + 350;
         bar.innerHTML = score
         // alert("Ton score est de" + "\n" + score);
         // formulaire.unbind('submit').submit()
