@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const boutonEnvoyer = document.querySelector("#calculate");
     const formulaire = document.querySelector("form");
     const compter = e => {
-        e.preventDefault();
+        // e.preventDefault();
         // console.log(e)
         var inputs = document.querySelectorAll('input[type="radio"]');
         var total = 0;
