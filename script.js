@@ -1,12 +1,12 @@
 window.addEventListener("DOMContentLoaded", () => {
     console.log("object");
-    const boutonEnvoyer = document.querySelector("#calculate");
+    // const boutonEnvoyer = document.querySelector("#calculate");
     const formulaire = document.querySelector("form");
     const bar = document.querySelector("#bar");
+    const inputs = document.querySelectorAll('input[type="radio"]');
     const compter = e => {
-        e.preventDefault();
+        // e.preventDefault();
         // console.log(e)
-        var inputs = document.querySelectorAll('input[type="radio"]');
         var total = 0;
         for (var i = 0; i < inputs.length; i++) {
             if (
@@ -24,7 +24,10 @@ window.addEventListener("DOMContentLoaded", () => {
     };
     // if score inf
     // boutonEnvoyer.addEventListener("click", compter);
-    // boutonEnvoyer.addEventListener("click", compter);
+    inputs.forEach(input =>{
+        input.addEventListener("click", compter);
+
+    })
     formulaire.addEventListener("submit", compter)
 
 });
