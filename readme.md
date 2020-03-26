@@ -20,10 +20,10 @@ Questions
 
 Rewards
 
-Priority status for children's school admissions 
-Easier access to bank loans and consumer credit
-Tax breaks
-Fast-tracking a work promotion
+- Priority status for children's school admissions 
+- Easier access to bank loans and consumer credit
+- Tax breaks
+- Fast-tracking a work promotion
 
 Punishments
 
