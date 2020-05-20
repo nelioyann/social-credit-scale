@@ -1,8 +1,15 @@
+# Study on the Social Credit System
+
+> The objective was to build an app for assessing a virtual score.
+> These questions are arbitrary and do not reflect the currently implimented system. 
+
 Each citizen is assigned 1000 points, constantly monitored to judge their behavior, and rated accordingly.
 
-Do you regularly visit your aging parents ?
-Did you ever cheat in an online game or download one illegally ?
-Did you help the poor during recently (by giving a coin for example) ?
+### Sample
+
+- Do you regularly visit your aging parents ?
+- Did you ever cheat in an online game or download one illegally ?
+- Did you help the poor during recently (by giving a coin for example) ?
 
 
 Questions
